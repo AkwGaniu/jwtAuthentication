@@ -1,0 +1,23 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "Jwt in action",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/AkwGaniu/jwtAuthentication.git"
+  },
+  "author": "Enny",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4"
+  }
+}
